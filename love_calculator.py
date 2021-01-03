@@ -84,3 +84,13 @@ count_e = E + E2
 count_love = count_l+count_o+count_v+count_e
 print(f"count love:  {count_love}")
 # total_t = lc_lover_one.count("t")+lc_lover_two.count("t")
+print(f"Your score is:{count_true}{count_love}")
+score = int(str(count_true) +str( count_love))
+print(f"This is your love score: {score}")
+
+if (score<=10) or (score>=90):
+    print(f"You {lover_one} are awesome together with {lover_two}")
+elif (score>=30) and (score<=70):
+    print(f"You {lover_one} are ok together with {lover_two}")
+else:
+    print(f"Get out of town! You {lover_one} and {lover_two} are way too awesome!")
