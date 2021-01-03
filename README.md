@@ -7,7 +7,7 @@ https://repl.it/@appbrewery/day-3-5-exercise
 ## really need to find a way to simplify the code
 
 
-the numbers add up
+the 'true love' numbers add up
 
 if statements for logic for love evaluation
 
